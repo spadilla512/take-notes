@@ -8,6 +8,7 @@ router.get('/api/notes', async (req, res) => {
     res.json(dbJson);
 });
 
+//post request to add new note
 router.post('/api/notes', (req, res) => {
     const dbJson = JSON.parse(fs.readFileSync("db/db.json", "utf8"));
     const newNotes = {
