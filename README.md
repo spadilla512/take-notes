@@ -14,7 +14,14 @@ Given a note-taking application, when I open the Note Taker then I am presented 
 
 ## Installation
 
+Install:
+Node, 
+express package by typing in command line "npm i express"
+uuid version 4 by typing "npm i uuidv4"
 
+## Images
+
+![Alt text](public/assets/images/application.png)
 
 ## Credits
 
