@@ -14,8 +14,8 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-app.use(api)
-app.use(html)
+app.use(api);
+app.use(html);
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
