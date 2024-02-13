@@ -5,15 +5,11 @@ body {
   padding: 0;
 }
 
-.save-note, .new-note, .clear-btn {
-  display: none;
-}
-
 .save-note {
   display: none;
 }
 
-.icons {
+.icons i {
   margin-left: 15px;
   margin-right: 15px;
   font-size: 1.5rem;
@@ -64,11 +60,6 @@ body {
   border-top-left-radius: 0;
 }
 
-.list-item-title {
-  display: inline-block;
-  width: 75%;
-}
-
 .list-container i {
   font-size: 1.1rem;
   cursor: pointer;
@@ -79,5 +70,14 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+  font-size: 25pt;
+  letter-spacing: 1pt;
+}
 
+.nav-bg {
+  background-color: lightblue;
+}
+
+.container-bg {
+  background-color: #cfe2f4;
 }
