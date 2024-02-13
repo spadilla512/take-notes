@@ -15,10 +15,10 @@ Given a note-taking application, when I open the Note Taker then I am presented 
 ## Installation
 
 Install:
-Node: "npm init" 
-express package: "npm i express"
-uuid version 4: "npm i uuidv4"
-Jquery: "npm i jquery"
+ - Node: "npm init" 
+ - express package: "npm i express"
+ - uuid version 4: "npm i uuidv4"
+ - Jquery: "npm i jquery"
 
 ## Images
 
