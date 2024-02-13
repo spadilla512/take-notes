@@ -21,13 +21,6 @@ var saveNote = function(note) {
   });
 };
 
-var deleteNote = function(id) {
-  return $.ajax({
-    url: "/api/notes" + id,
-    method: "DELETE",
-  });
-};
-
 var renderActiveNote = function() {
   $saveNoteBtn.hide();
 
@@ -36,18 +29,14 @@ var renderActiveNote = function() {
     $noteText.attr('readonly', true);
     $noteTitle.val(activeNote.title);
     $noteText.val(activeNote.text);
-  } else {
-    $noteTitle.att('readonly', false);
-    $noteText.att('readonly', false);
-    $noteTitle.val('');
-    $noteText.val('');
-  }
+  } 
+  console.log('Rendered active note:', activeNote);
 };
 
 var handleNoteSave = function() {
    var newNote = {
-    title: noteTitle.val(),
-    text: noteText.val()
+    title: $noteTitle.val(),
+    text: $noteText.val()
   };
   saveNote(newNote).then(function(data) {
     getAndRenderNotes();
@@ -68,7 +57,7 @@ var handleNewNoteView = function() {
 };
 
 // Renders the appropriate buttons based on the state of the form
-var handleRenderBtns = function() {
+var handleRenderSaveBtn = function() {
   if (!$noteTitle.val().trim() || !$noteText.val().trim()) {
     $saveNoteBtn.hide();
   } else {

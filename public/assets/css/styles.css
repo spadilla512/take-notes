@@ -70,14 +70,13 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
-  font-size: 25pt;
-  letter-spacing: 1pt;
 }
 
 .nav-bg {
-  background-color: lightblue;
+  background-color: rgb(69, 190, 255);
 }
 
 .container-bg {
-  background-color: #cfe2f4;
+  background-color: rgb(245, 243, 243);
+  padding: 20px
 }
