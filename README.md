@@ -15,13 +15,28 @@ Given a note-taking application, when I open the Note Taker then I am presented 
 ## Installation
 
 Install:
-Node, 
-express package by typing in command line "npm i express"
-uuid version 4 by typing "npm i uuidv4"
+Node: "npm init" 
+express package: "npm i express"
+uuid version 4: "npm i uuidv4"
+Jquery: "npm i jquery"
 
 ## Images
 
-![Alt text](public/assets/images/application.png)
+### Preview 1
+
+![Alt text](public/assets/images/Preview1.png)
+
+### Preview 2
+
+![Alt text](public/assets/images/Preview2.png)
+
+### Preview 3
+
+![Alt text](public/assets/images/Preview3.png)
+
+## Deployment Link
+
+[Link](https://hidden-brook-08790-cb94b3d76c41.herokuapp.com/)
 
 ## Credits
 
